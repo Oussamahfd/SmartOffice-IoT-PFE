@@ -1,0 +1,1344 @@
+[
+    {
+        "id": "1c890f2109c10fcc",
+        "type": "tab",
+        "label": "IOT SYSTEME",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "e48b69c4d3225b32",
+        "type": "serial-port",
+        "serialport": "COM8",
+        "serialbaud": "9600",
+        "databits": "8",
+        "parity": "none",
+        "stopbits": "1",
+        "waitfor": "",
+        "dtr": "none",
+        "rts": "none",
+        "cts": "none",
+        "dsr": "none",
+        "newline": "\\n",
+        "bin": "false",
+        "out": "char",
+        "addchar": "",
+        "responsetimeout": "10000"
+    },
+    {
+        "id": "5f327ac2e7b7390e",
+        "type": "serial-port",
+        "serialport": "COM8",
+        "serialbaud": "9600",
+        "databits": "8",
+        "parity": "none",
+        "stopbits": "1",
+        "waitfor": "",
+        "dtr": "none",
+        "rts": "none",
+        "cts": "none",
+        "dsr": "none",
+        "newline": "\\n",
+        "bin": "false",
+        "out": "char",
+        "addchar": "",
+        "responsetimeout": "10000"
+    },
+    {
+        "id": "c566b2fdafc9ef78",
+        "type": "ui_tab",
+        "name": "CONSULTER EQUIPEMENTS",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "58ace2258a672bd6",
+        "type": "ui_tab",
+        "name": "CONTROLER EQUIPEMENTS",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "8aadd8803e3582bc",
+        "type": "ui_group",
+        "name": "HUMIDITÉ",
+        "tab": "c566b2fdafc9ef78",
+        "order": 1,
+        "disp": true,
+        "width": "8",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "bbeb67792cade391",
+        "type": "ui_group",
+        "name": "CONTROLER LUMIERE",
+        "tab": "58ace2258a672bd6",
+        "order": 1,
+        "disp": true,
+        "width": "8",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "77adb80fe1ce994d",
+        "type": "ui_group",
+        "name": "CONTROLER VOLETS",
+        "tab": "58ace2258a672bd6",
+        "order": 2,
+        "disp": true,
+        "width": 8,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "9864ea8014813da5",
+        "type": "ui_group",
+        "name": "FUMÉE",
+        "tab": "c566b2fdafc9ef78",
+        "order": 2,
+        "disp": true,
+        "width": "8",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3626696641f99e12",
+        "type": "ui_group",
+        "name": "CO2",
+        "tab": "c566b2fdafc9ef78",
+        "order": 3,
+        "disp": true,
+        "width": "8",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7901e1ca32cae585",
+        "type": "ui_group",
+        "name": "ALCOOL",
+        "tab": "c566b2fdafc9ef78",
+        "order": 4,
+        "disp": true,
+        "width": "8",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a5debd249a0f6b0e",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-custom",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#4B7930",
+                    "value": "#4B7930",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#4B7930",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#6db046",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#4b7930",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "d51aec8329008c63",
+        "type": "ui_tab",
+        "name": "RECLAMATION",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "6df6950bd49bace6",
+        "type": "ui_group",
+        "name": "REPORT",
+        "tab": "d51aec8329008c63",
+        "order": 1,
+        "disp": true,
+        "width": "8",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "4e4696829912fe60",
+        "type": "ui_group",
+        "name": "CONTROLER VENTILATEUR",
+        "tab": "58ace2258a672bd6",
+        "order": 3,
+        "disp": true,
+        "width": "8",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7d100d4ed0fb20b2",
+        "type": "ui_tab",
+        "name": "DATABASE",
+        "icon": "dashboard",
+        "order": 6,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "73c0e70aa5b292d1",
+        "type": "ui_group",
+        "name": "group 1",
+        "tab": "7d100d4ed0fb20b2",
+        "order": 1,
+        "disp": true,
+        "width": "8",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ed14b5ff547c2a4a",
+        "type": "ui_tab",
+        "name": "RECLAMATION",
+        "icon": "dashboard",
+        "order": 7,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "bb1120ae6a306d9a",
+        "type": "ui_group",
+        "name": "REPORT",
+        "tab": "ed14b5ff547c2a4a",
+        "order": 1,
+        "disp": true,
+        "width": "8",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "0787c32abb298152",
+        "type": "ui_group",
+        "name": "CONTROLER VENTILATEUR",
+        "tab": "58ace2258a672bd6",
+        "order": 3,
+        "disp": true,
+        "width": "8",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "9d5892eebd682554",
+        "type": "ui_tab",
+        "name": "BASE DE DONNÉES",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "de343ab6159b683e",
+        "type": "ui_group",
+        "name": "DATABASE",
+        "tab": "9d5892eebd682554",
+        "order": 1,
+        "disp": true,
+        "width": 20,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "33486c82510127bc",
+        "type": "MySQLdatabase",
+        "z": null,
+        "name": "",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "testarduino",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "31decc80dd2d4b0d",
+        "type": "serial-port",
+        "serialport": "",
+        "serialbaud": "57600",
+        "databits": "8",
+        "parity": "none",
+        "stopbits": "1",
+        "waitfor": "",
+        "dtr": "none",
+        "rts": "none",
+        "cts": "none",
+        "dsr": "none",
+        "newline": "\\n",
+        "bin": "false",
+        "out": "char",
+        "addchar": "",
+        "responsetimeout": "10000"
+    },
+    {
+        "id": "4261e99e1b87f2d2",
+        "type": "ui_spacer",
+        "z": "1c890f2109c10fcc",
+        "name": "spacer",
+        "group": "208654fae26b2f2c",
+        "order": 1,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "c9ac33ea829fece7",
+        "type": "ui_spacer",
+        "z": "1c890f2109c10fcc",
+        "name": "spacer",
+        "group": "208654fae26b2f2c",
+        "order": 3,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "a76b163eeee6f035",
+        "type": "ui_spacer",
+        "z": "1c890f2109c10fcc",
+        "name": "spacer",
+        "group": "208654fae26b2f2c",
+        "order": 4,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "9a29efcaae5c7893",
+        "type": "ui_spacer",
+        "z": "1c890f2109c10fcc",
+        "name": "spacer",
+        "group": "208654fae26b2f2c",
+        "order": 5,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "11f1e720df709501",
+        "type": "ui_spacer",
+        "z": "1c890f2109c10fcc",
+        "name": "spacer",
+        "group": "208654fae26b2f2c",
+        "order": 6,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "9fd244bc07add7a4",
+        "type": "ui_spacer",
+        "z": "1c890f2109c10fcc",
+        "name": "spacer",
+        "group": "208654fae26b2f2c",
+        "order": 7,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "75fd32ced496d324",
+        "type": "ui_spacer",
+        "z": "1c890f2109c10fcc",
+        "name": "spacer",
+        "group": "208654fae26b2f2c",
+        "order": 8,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "91a803c6e0395584",
+        "type": "ui_spacer",
+        "z": "1c890f2109c10fcc",
+        "name": "spacer",
+        "group": "208654fae26b2f2c",
+        "order": 9,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "79b5a5d51739b2eb",
+        "type": "ui_spacer",
+        "z": "1c890f2109c10fcc",
+        "name": "spacer",
+        "group": "208654fae26b2f2c",
+        "order": 10,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "229f5b24f510ca18",
+        "type": "ui_spacer",
+        "z": "1c890f2109c10fcc",
+        "name": "spacer",
+        "group": "208654fae26b2f2c",
+        "order": 11,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "45c8e8df157c1199",
+        "type": "ui_spacer",
+        "z": "1c890f2109c10fcc",
+        "name": "spacer",
+        "group": "208654fae26b2f2c",
+        "order": 12,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "8a0aeb32da8ddb07",
+        "type": "ui_spacer",
+        "z": "1c890f2109c10fcc",
+        "name": "spacer",
+        "group": "208654fae26b2f2c",
+        "order": 13,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "a9f7fd24199bb8d0",
+        "type": "ui_group",
+        "name": "TEMPERATURE",
+        "tab": "c566b2fdafc9ef78",
+        "order": 1,
+        "disp": true,
+        "width": "8",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d9eb56ba305ed6e8",
+        "type": "ui_group",
+        "name": "REPORT",
+        "tab": "bb03860e07c2142c",
+        "order": 1,
+        "disp": true,
+        "width": "8",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3b45aabe5331e702",
+        "type": "ui_group",
+        "name": "CONTROLER VENTILATEUR",
+        "tab": "58ace2258a672bd6",
+        "order": 3,
+        "disp": true,
+        "width": "8",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b1d3cc7464b07d79",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "testarduino",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "208654fae26b2f2c",
+        "type": "ui_group",
+        "name": "DATABASE",
+        "tab": "50334cf51e2016ee",
+        "order": 1,
+        "disp": true,
+        "width": 20,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "bb03860e07c2142c",
+        "type": "ui_tab",
+        "name": "RECLAMATION",
+        "icon": "dashboard",
+        "order": 8,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "50334cf51e2016ee",
+        "type": "ui_tab",
+        "name": "BASE DE DONNÉES",
+        "icon": "dashboard",
+        "order": 5,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "3544188a2653ab2e",
+        "type": "serial in",
+        "z": "1c890f2109c10fcc",
+        "name": "",
+        "serial": "e48b69c4d3225b32",
+        "x": 70,
+        "y": 180,
+        "wires": [
+            [
+                "74fd51a7127279b6",
+                "5203b01bbaeb0336",
+                "22fd0441fe3b6deb",
+                "6d021b577c398f13",
+                "ee45a5c6e3c23796",
+                "791d3fb253cda3cd"
+            ]
+        ]
+    },
+    {
+        "id": "791d3fb253cda3cd",
+        "type": "function",
+        "z": "1c890f2109c10fcc",
+        "name": "transfer temperature",
+        "func": "const words = msg.payload.split(\" \");\nmsg.payload = words[1];\nmsg.payload = parseFloat(msg.payload);\nglobal.set(\"temperature\", msg.payload);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ee45a5c6e3c23796",
+        "type": "function",
+        "z": "1c890f2109c10fcc",
+        "name": "transfer humidité",
+        "func": "const words = msg.payload.split(\" \");\nmsg.payload = words[0];\nmsg.payload = parseFloat(msg.payload);\nglobal.set(\"humidite\", msg.payload);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 240,
+        "wires": [
+            [
+                "8b1ab444c185eb36"
+            ]
+        ]
+    },
+    {
+        "id": "8b1ab444c185eb36",
+        "type": "ui_gauge",
+        "z": "1c890f2109c10fcc",
+        "name": "",
+        "group": "8aadd8803e3582bc",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "HUMIDITÉ",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 770,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "a3568adf1360bb90",
+        "type": "ui_gauge",
+        "z": "1c890f2109c10fcc",
+        "name": "",
+        "group": "a9f7fd24199bb8d0",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "TEMPERATURE",
+        "label": "Celsuis",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 790,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "fbd445de51d7ad86",
+        "type": "serial out",
+        "z": "1c890f2109c10fcc",
+        "name": "",
+        "serial": "5f327ac2e7b7390e",
+        "x": 730,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "ebcf1d6b9ed8011e",
+        "type": "ui_switch",
+        "z": "1c890f2109c10fcc",
+        "name": "",
+        "label": "lampe1",
+        "tooltip": "",
+        "group": "bbeb67792cade391",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 200,
+        "y": 820,
+        "wires": [
+            [
+                "fbd445de51d7ad86",
+                "a76c94e77115e2dd"
+            ]
+        ]
+    },
+    {
+        "id": "a76c94e77115e2dd",
+        "type": "debug",
+        "z": "1c890f2109c10fcc",
+        "name": "debug 4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 740,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "14f3e63e08a55f84",
+        "type": "ui_switch",
+        "z": "1c890f2109c10fcc",
+        "name": "",
+        "label": "lampe2",
+        "tooltip": "",
+        "group": "bbeb67792cade391",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "2",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "3",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 200,
+        "y": 900,
+        "wires": [
+            [
+                "fbd445de51d7ad86",
+                "a76c94e77115e2dd"
+            ]
+        ]
+    },
+    {
+        "id": "a7f79391c95c148a",
+        "type": "ui_switch",
+        "z": "1c890f2109c10fcc",
+        "name": "",
+        "label": "VOLETS",
+        "tooltip": "",
+        "group": "77adb80fe1ce994d",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "ouverts",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "fermés",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 200,
+        "y": 1040,
+        "wires": [
+            [
+                "a76c94e77115e2dd",
+                "fbd445de51d7ad86",
+                "9004f5924cf909a0"
+            ]
+        ]
+    },
+    {
+        "id": "eb923898a274dee5",
+        "type": "ui_gauge",
+        "z": "1c890f2109c10fcc",
+        "name": "",
+        "group": "9864ea8014813da5",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "fumée",
+        "label": "ppm",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#e90c0c"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 750,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "477ba2cc3e392ef9",
+        "type": "ui_gauge",
+        "z": "1c890f2109c10fcc",
+        "name": "",
+        "group": "3626696641f99e12",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "co2",
+        "label": "ppm",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 750,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "08a564f30385e42c",
+        "type": "ui_gauge",
+        "z": "1c890f2109c10fcc",
+        "name": "",
+        "group": "7901e1ca32cae585",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "alcool",
+        "label": "ppm",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 750,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "6d021b577c398f13",
+        "type": "function",
+        "z": "1c890f2109c10fcc",
+        "name": "transfer co2",
+        "func": "const words = msg.payload.split(\" \");\nmsg.payload = words[3];\nmsg.payload = parseFloat(msg.payload);\nglobal.set(\"co2\", msg.payload)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 300,
+        "wires": [
+            [
+                "477ba2cc3e392ef9"
+            ]
+        ]
+    },
+    {
+        "id": "22fd0441fe3b6deb",
+        "type": "function",
+        "z": "1c890f2109c10fcc",
+        "name": "transfer fumée",
+        "func": "const words = msg.payload.split(\" \");\nmsg.payload = words[2];\nmsg.payload = parseFloat(msg.payload);\nglobal.set(\"fumee\", msg.payload)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 360,
+        "wires": [
+            [
+                "eb923898a274dee5",
+                "670b0a904d12da1b"
+            ]
+        ]
+    },
+    {
+        "id": "5203b01bbaeb0336",
+        "type": "function",
+        "z": "1c890f2109c10fcc",
+        "name": "transfer alcool",
+        "func": "const words = msg.payload.split(\" \");\nmsg.payload = words[4];\nmsg.payload = parseFloat(msg.payload);\nglobal.set(\"alcool\", msg.payload)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 520,
+        "wires": [
+            [
+                "08a564f30385e42c"
+            ]
+        ]
+    },
+    {
+        "id": "74fd51a7127279b6",
+        "type": "debug",
+        "z": "1c890f2109c10fcc",
+        "name": "debug 5",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 440,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "9004f5924cf909a0",
+        "type": "ui_text",
+        "z": "1c890f2109c10fcc",
+        "group": "77adb80fe1ce994d",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "ETAT DES VOLETS : \" Volets sont ",
+        "format": "{{msg.payload}} \"",
+        "layout": "row-left",
+        "className": "",
+        "x": 760,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "a0baed779baa7bcb",
+        "type": "e-mail",
+        "z": "1c890f2109c10fcc",
+        "server": "smtp.gmail.com",
+        "port": "465",
+        "authtype": "BASIC",
+        "saslformat": true,
+        "token": "oauth2Response.access_token",
+        "secure": true,
+        "tls": true,
+        "name": "hfd.oussama@gmail.com",
+        "dname": "ALERT",
+        "x": 760,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "670b0a904d12da1b",
+        "type": "function",
+        "z": "1c890f2109c10fcc",
+        "name": "Alerte Fumée",
+        "func": "// Vérifier si l'alerte est déjà active\nvar alerteActive = context.get(\"alerteActive\");\n\nif (msg.payload > 200 && !alerteActive) {\n    // La quantité de fumée est trop élevée et l'alerte n'est pas active, envoyer un message de notification\n    msg.topic = \"ALERTE : quantité de fumée trop élevée\";\n    msg.payload = \"La quantité de fumée est de \" + msg.payload + \" ppm.\";\n    context.set(\"alerteActive\", true); // Mettre à jour l'état de l'alerte\n    return msg;\n} else if (msg.payload < 200 && alerteActive) {\n    // La quantité de fumée est revenue à un niveau normal et l'alerte est active, envoyer un message de confirmation\n    msg.topic = \"CONFIRMATION : quantité de fumée revenue à un niveau normal\";\n    msg.payload = \"La quantité de fumée est de \" + msg.payload + \" ppm.\";\n    context.set(\"alerteActive\", false); // Mettre à jour l'état de l'alerte\n    return msg;\n} else {\n    // La quantité de fumée est normale et aucune alerte n'est active\n    return null;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 420,
+        "wires": [
+            [
+                "a0baed779baa7bcb"
+            ]
+        ]
+    },
+    {
+        "id": "c3d8e73a100eda05",
+        "type": "ui_form",
+        "z": "1c890f2109c10fcc",
+        "name": "",
+        "label": "ENTREZ VOS INFORMATION POUR FAIRE UNE RECLAMATION",
+        "group": "d9eb56ba305ed6e8",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "NOM",
+                "value": "NOM",
+                "type": "text",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "PRENOM",
+                "value": "PRENOM",
+                "type": "text",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "PROBLEME",
+                "value": "PROBLEME",
+                "type": "text",
+                "required": false,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "NOM": "",
+            "PRENOM": "",
+            "PROBLEME": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "x": 260,
+        "y": 1380,
+        "wires": [
+            [
+                "67c13bc7c77c3309"
+            ]
+        ]
+    },
+    {
+        "id": "67c13bc7c77c3309",
+        "type": "function",
+        "z": "1c890f2109c10fcc",
+        "name": "Reclamation",
+        "func": "const name = msg.payload.NOM;\nconst prenom = msg.payload.PRENOM;\nconst problem = msg.payload.PROBLEME;\nconst date = new Date();\nmsg.payload = \"La date d'aujourd'hui est : \" + date.toLocaleDateString();\n\nmsg.topic = \"RECLAMATION \";\nmsg.payload = \" NOM : \" + name + \"\\n PRENOM : \" + prenom + \"\\n PROBLEME : \" + problem + \" \\n DATE : \" + date.toLocaleDateString() ;\nreturn msg ;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 1380,
+        "wires": [
+            [
+                "59de89cf3bb5281b"
+            ]
+        ]
+    },
+    {
+        "id": "59de89cf3bb5281b",
+        "type": "e-mail",
+        "z": "1c890f2109c10fcc",
+        "server": "smtp.gmail.com",
+        "port": "465",
+        "authtype": "BASIC",
+        "saslformat": true,
+        "token": "oauth2Response.access_token",
+        "secure": true,
+        "tls": true,
+        "name": "smartoffice.internetofthings@gmail.com",
+        "dname": "RECLAM",
+        "x": 940,
+        "y": 1380,
+        "wires": []
+    },
+    {
+        "id": "78e9f067eb418ddd",
+        "type": "ui_switch",
+        "z": "1c890f2109c10fcc",
+        "name": "",
+        "label": "VENTILATEUR",
+        "tooltip": "",
+        "group": "3b45aabe5331e702",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "allumé",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "eteint",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 220,
+        "y": 1120,
+        "wires": [
+            [
+                "fbd445de51d7ad86",
+                "a76c94e77115e2dd",
+                "ac931daa3ea691a6"
+            ]
+        ]
+    },
+    {
+        "id": "ac931daa3ea691a6",
+        "type": "ui_text",
+        "z": "1c890f2109c10fcc",
+        "group": "3b45aabe5331e702",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "ETAT DE VENTILATEUR : \" Ventilateur est  ",
+        "format": "{{msg.payload}} \"",
+        "layout": "row-left",
+        "className": "",
+        "x": 790,
+        "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "9ee4de5ef2598ad8",
+        "type": "mysql",
+        "z": "1c890f2109c10fcc",
+        "mydb": "33486c82510127bc",
+        "name": "",
+        "x": 830,
+        "y": 1800,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0fb3218b68c4fe62",
+        "type": "inject",
+        "z": "1c890f2109c10fcc",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "20",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 1800,
+        "wires": [
+            [
+                "4912715fc1b1de0e"
+            ]
+        ]
+    },
+    {
+        "id": "4912715fc1b1de0e",
+        "type": "function",
+        "z": "1c890f2109c10fcc",
+        "name": "function 2",
+        "func": "const now = new Date();\n\nconst year = now.getFullYear();\nconst month = now.getMonth() + 1; // Note that getMonth() returns 0-11, so we add 1 to get 1-12.\nconst day = now.getDate();\n\nconst hours = now.getHours();\nconst minutes = now.getMinutes();\nconst seconds = now.getSeconds();\nconst result = day + \"/\" + month +\"/\" + year + \" , \" + hours + \":\" + minutes + \":\" + seconds; \nconst temp = global.get(\"temperature\");\nconst hum = global.get(\"humidite\");\nconst co2 = global.get(\"co2\");\nconst fum = global.get(\"fumee\");\nconst alc = global.get(\"alcool\");\nmsg.topic = \"INSERT INTO test VALUES ('\" + result + \"',\" + temp + \",\" + hum + \",\" + co2 + \",\" + fum + \",\" + alc +\");\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 1800,
+        "wires": [
+            [
+                "9ee4de5ef2598ad8",
+                "3a8dd6196f1035ab"
+            ]
+        ]
+    },
+    {
+        "id": "22657ec2a6a9c7b9",
+        "type": "mysql",
+        "z": "1c890f2109c10fcc",
+        "mydb": "33486c82510127bc",
+        "name": "",
+        "x": 510,
+        "y": 2000,
+        "wires": [
+            [
+                "edbdbbdab399140c"
+            ]
+        ]
+    },
+    {
+        "id": "edbdbbdab399140c",
+        "type": "ui_table",
+        "z": "1c890f2109c10fcc",
+        "group": "208654fae26b2f2c",
+        "name": "",
+        "order": 2,
+        "width": 17,
+        "height": 12,
+        "columns": [
+            {
+                "field": "DATE",
+                "title": "DATE ",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "TEMPERATURE °C",
+                "title": "TEMPERATURE °C",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "HUMIDITÉ",
+                "title": "HUMIDITÉ %",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "CO2",
+                "title": "CO2 ppm",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "FUMÉE",
+                "title": "FUMÉE ppm",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "ALCOOL",
+                "title": "ALCOOL ppm",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 0,
+        "cts": false,
+        "x": 850,
+        "y": 2000,
+        "wires": []
+    },
+    {
+        "id": "96b2cff274a0fada",
+        "type": "inject",
+        "z": "1c890f2109c10fcc",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "20",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "SELECT * FROM test;",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 2000,
+        "wires": [
+            [
+                "22657ec2a6a9c7b9"
+            ]
+        ]
+    },
+    {
+        "id": "3a8dd6196f1035ab",
+        "type": "debug",
+        "z": "1c890f2109c10fcc",
+        "name": "debug 6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 560,
+        "y": 1900,
+        "wires": []
+    }
+]

@@ -1,0 +1,98 @@
+#include "DHT.h"
+#include <Servo.h>
+
+#define led1 7
+#define led2 6
+#define DHTPIN 9
+#define DHTTYPE DHT11
+
+Servo myservo;
+int servoPin = 3;
+int angle = 0;
+String x;
+DHT dht(DHTPIN, DHTTYPE);
+int digitalSensor = 13;
+int analogSensor = A0;
+int digitalValue;//mq2
+int analogValue;
+int digiSensor = 12;
+int analSensor = A1;//mq135
+int digsensor = 11;
+int anasensor = A2;//mq3
+const int RELAY_PIN = 2;
+
+void setup() {
+  Serial.begin(9600);
+  pinMode(led1, OUTPUT);
+  dht.begin();
+  pinMode(digitalSensor, INPUT);
+  pinMode(analogSensor, INPUT);
+  pinMode(digsensor, INPUT);
+  myservo.attach(servoPin);
+  myservo.write(angle);
+  pinMode(RELAY_PIN, OUTPUT);
+
+}
+
+void loop() {
+  // Lecture des commandes du port série
+  if (Serial.available() > 0) {
+    x = Serial.readString();
+    Serial.println(x);
+    if (x == "1") {
+      digitalWrite(led1, HIGH);
+    }
+    if (x == "0") {
+      digitalWrite(led1, LOW);
+    }
+    if (x == "2") {
+      analogWrite(led2, 255);
+    }
+    if (x == "3") {
+      digitalWrite(led2, LOW);
+    }
+    if (x == "ouverts") { // Ouvrir les volets
+      angle = 180 - angle;
+      myservo.write(angle);
+    } else if (x == "fermés") { // Fermer les volets
+      angle = 0;
+      myservo.write(angle);
+    }
+    if(x == "allumé")
+      {
+    digitalWrite(RELAY_PIN, HIGH); // allume le ventilateur
+      }
+      else if(x == "eteint")
+      {
+    digitalWrite(RELAY_PIN, LOW); // éteint le ventilateur
+      }
+     
+  }
+
+  // Lecture des capteurs
+  float h = dht.readHumidity();
+  float t = dht.readTemperature();
+  float f = dht.readTemperature(true);
+
+  if (isnan(h) || isnan(t) || isnan(f)) {
+    Serial.println(F("Failed to read from DHT sensor!"));
+    return;
+  }
+
+  digitalValue = digitalRead(digitalSensor);
+  analogValue = analogRead(analogSensor);
+  int digiValue = digitalRead(digiSensor);
+  int analValue = analogRead(analSensor);
+  bool digital = digitalRead(digsensor);
+  int analog = analogRead(anasensor);
+
+  float hic = dht.computeHeatIndex(t, h, false);
+
+  String hstring = String(h);
+  String tstring = String(t);
+  String fstring = String(analogValue);
+  String co2string = String(analValue);
+  String astring = String(analog);
+
+  Serial.println(hstring + " " + tstring + " " + fstring + " " + co2string + " " + astring);
+}
